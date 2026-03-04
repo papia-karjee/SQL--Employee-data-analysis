@@ -23,4 +23,5 @@ This project demonstrates SQL queries used for analyzing employee data.
 7. find employees hired in the last 6 months.
 8. find employees whose name starts and ends with vowel.
 9. delete duplicate records but keep one copy.
-10.find departments having more than 5 employees.
+10. find departments having more than 5 employees.
+
