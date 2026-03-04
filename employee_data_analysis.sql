@@ -115,9 +115,7 @@ select emp_name from employees_records where emp_name like
 
 
 
- select * from employees_records
-
-select * from employee_records
+ 
 
 
 
