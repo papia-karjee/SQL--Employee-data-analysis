@@ -1,11 +1,11 @@
 use papia
 create table employees_records(
-emp_id int primary key,
-emp_name varchar(30),
-dept varchar(30),
-salary decimal(10,2),
-manager_id int foreign key references employees_records(emp_id),
-hire_date date
+	emp_id int primary key,
+	emp_name varchar(30),
+	dept varchar(30),
+	salary decimal(10,2),
+	manager_id int foreign key references employees_records(emp_id),
+	hire_date date
 )
 
 insert into employees_records values(101,'Sindura','IT',50000,Null,'2025-05-05'),
@@ -120,3 +120,4 @@ select emp_name from employees_records where emp_name like
 
 
                              
+
